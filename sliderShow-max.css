@@ -1,0 +1,51 @@
+#sliderShowMax .img-box{
+    position: absolute;
+    cursor: pointer;    
+}
+#sliderShowMax .img-box li{
+    float: left;
+}
+#sliderShowMax .img-box img{
+    width:100%;
+    height:100%;
+}
+#sliderShowMax .list{
+    cursor: pointer;    
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#sliderShowMax .list li{
+    float: left;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left:5px;
+    background-color: white;
+}
+
+#sliderShowMax .list .active{
+    float: left;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left:5px;
+    background-color: #139d72;
+}
+
+#sliderShowMax .btn{
+    position : absolute;
+    top:50%;
+    transform: translateY(-50%);
+    display: none;
+    cursor: pointer;    
+}
+#sliderShowMax .prev{
+    left: 0px;
+}
+#sliderShowMax .next{
+    right: 0px;
+}

@@ -1,0 +1,133 @@
+#tab{
+    width:675px;
+}
+
+#tab .tab-header{
+    width:675px;
+    height:33px;
+    border-bottom:2px solid #02A682;
+}
+
+#tab .tab-header-classify{
+    float:left;
+    font-size:14px;
+    line-height:30px;
+    color:#999;
+    margin-right:4px;
+    cursor: pointer;
+}
+#tab .classIfy{
+    float:left;
+    font-size:16px;
+    line-height:30px;
+    color:black;
+    margin-right:4px;
+    margin-left:4px;
+    cursor: pointer;
+}
+#tab .tab-header-end{
+    color:#999;
+    font-size:12px;
+    float:right;
+    margin-top:9px;
+    margin-right:5px;
+}
+#tab .tab-content{
+    width:650px;
+    height:410px;
+    padding-top:14px;
+    padding-left:25px;
+    background-color:#F5F7F8;
+    display:none;
+}
+#tab .tab-content .tab-box{
+    float:left;
+    margin-right:25px;
+    width:137px;
+    text-align:center;
+}
+
+#tab .tab-content .tab-box .bg-image{
+    position: relative;
+    margin-bottom:5px;
+    border:1px solid #999;
+    padding:5px;
+    width:125px;
+    height:125px;
+}
+#tab .tab-content .tab-box .bg-image img{
+    width:125px;
+    height:125px;
+}
+#tab .tab-content .tab-box .bg-image .tab-radius{
+    position: absolute;
+    right:18px;
+    bottom:18px;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    background-color:#222;
+    z-index: 88;
+}
+#tab .tab-content .tab-box .bg-image .tab-triangle{
+    position: absolute;
+    left:6px;
+    top:4px;
+    width:0px;
+    border:6px solid transparent;
+    border-left:10px solid #ddd;
+}
+#tab .tab-content .tab-box .bg-text{
+    background-color:rgba(82, 82, 82, 0.5);
+    border:5px solid white;
+    position: absolute;
+    width:125px;
+    height:125px;
+    left:0px;
+    top:0px;
+    display:none;
+}
+/* 切换decoration--className */
+#tab .tab-content .tab-box .bg-block{
+    background-color:rgba(82, 82, 82, 0.5);
+    border:5px solid white;
+    position: absolute;
+    width:125px;
+    height:125px;
+    left:0px;
+    top:0px;
+    display:block;
+}
+#tab .tab-content .tab-box .bg-text .text{
+    padding-left:13px;
+    font-size: 14px;
+    width:125px;
+    position: absolute;
+    color:white;
+    top:50%;
+    /* left:50%; */
+    transform: translateY(-50%);
+    text-align:left;
+    line-height: 1.8em;
+}
+
+#tab .tab-content .tab-box a{
+    color:#138A64;
+    font-size: 15px;
+}
+
+#tab .tab-content .tab-box a:hover{
+    background-color:#138A64;
+    color:white;
+    font-size: 15px;
+}
+#tab .tab-content .tab-box p{
+    font-size: 14px;
+    color:#999;
+    margin-top:8px;
+    margin-bottom:15px;
+}
+
+#tab .tab-active{
+    display:block;
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>豆瓣音乐</title>
+	<link rel="stylesheet" type="text/css" href="DouBan.css" />
+	<link rel="stylesheet" type="text/css" href="sliderShow-max.css" />
+	<link rel="stylesheet" type="text/css" href="tab.css" />
+	<link rel="stylesheet" type="text/css" href="input.css" />
+
+</head>
+
+<body>
+	<!-- 顶部导航栏 -->
+	<div class="db-nav">
+		<ul class="nav-left">
+			<li>
+				<a href="">豆瓣</a>
+			</li>
+			<li>
+				<a href="">读书</a>
+			</li>
+			<li>
+				<a href="">电影</a>
+			</li>
+			<li>
+				<a href="">音乐</a>
+			</li>
+			<li>
+				<a href="">同城</a>
+			</li>
+			<li>
+				<a href="">小组</a>
+			</li>
+			<li>
+				<a href="">阅读</a>
+			</li>
+			<li>
+				<a href="">FM</a>
+			</li>
+			<li>
+				<a href="">时间</a>
+			</li>
+			<li>
+				<a href="">豆品</a>
+			</li>
+			<li>
+				<a href="">更多</a>
+			</li>
+		</ul>
+		<ul class="nav-right">
+			<li class='dbapp'>
+				<a href="">下载豆瓣客户端</a>
+			</li>
+			<li>
+				<a href="">登陆</a>
+			</li>
+			<li>
+				<a href="">注册</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 搜索+logo+二级导航栏 -->
+	<div class="db-nav-music">
+		<!-- logo+input -->
+		<div class="nav-wrap">
+			<div class="nav-primary">
+				<div class="db-log">
+					<a href="https://music.douban.com/"></a>
+				</div>
+				<div id="nav-search"></div>
+			</div>
+		</div>
+		<!-- 二级导航栏 -->
+		<div class="secondary">
+			<div class="items">
+				<ul>
+					<li>
+						<a href="">音乐人</a>
+					</li>
+					<li>
+						<a href="">潮潮豆瓣音乐周</a>
+					</li>
+					<li>
+						<a href="">金羊毛计划</a>
+					</li>
+					<li>
+						<a href="">专题</a>
+					</li>
+					<li>
+						<a href="">排行榜</a>
+					</li>
+					<li>
+						<a href="">分类浏览</a>
+					</li>
+					<li>
+						<a href="">乐评</a>
+					</li>
+					<li>
+						<a href="">豆瓣FM</a>
+					</li>
+					<li>
+						<a href="">歌单</a>
+					</li>
+					<li>
+						<a href="">阿比鹿音乐奖</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 内容区 -->
+	<div class="wrapper">
+		<!-- 内容盒子 -->
+		<div class="content">
+			<!-- 左侧文章内容区 -->
+			<div class="article">
+				<div id='sliderShowMax'></div>
+				<div class="popular-artists section">
+					<div id="tab"></div>
+				</div>
+			</div>
+
+
+			<!-- 右侧旁白 -->
+			<div class="aside">
+				<!-- 广告 -->
+				<div class="advertising">
+					<div class="adv-img">
+						<a href="">
+							<img src="img/advertising-1.jpg" alt="">
+						</a>
+					</div>
+					<div class="adv-btn">广告</div>
+				</div>
+				<!-- 类型数据 -->
+				<div class="data">
+					<div class="join">
+						<h2>
+							<a href="">44535</a>
+						</h2>
+						<p>音乐人</p>
+					</div>
+					<div class="join">
+						<h2>
+							<a href="">2656</a>
+						</h2>
+						<p>播客</p>
+					</div>
+					<div class="join join-last">
+						<h2>
+							<a href="">1109</a>
+						</h2>
+						<p>厂牌</p>
+					</div>
+					<a class="button" href="">我要加入</a>
+				</div>
+				<!-- tag标签 -->
+				<div class="tag-block">
+					<div class="tag-header">
+						<p class="classify">热门音乐人分类</p>
+						<p class='more'>
+							<a href="">更多</a>
+						</p>
+					</div>
+				</div>
+				<!-- 标签表格 -->
+				<div class="table">
+					<div>
+						<a href="">流行</a>
+					</div>
+					<div>
+						<a href="">轻音乐</a>
+					</div>
+					<div>
+						<a href="">摇滚</a>
+					</div>
+					<div>
+						<a href="">古典</a>
+					</div>
+					<div>
+						<a href="">电子</a>
+					</div>
+					<div>
+						<a href="">世界音乐</a>
+					</div>
+					<div>
+						<a href="">民谣</a>
+					</div>
+					<div>
+						<a href="">说唱</a>
+					</div>
+					<div class="bottom-solid">
+						<a href="">爵士</a>
+					</div>
+					<div class="bottom-solid">
+						<a href="">原声</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="aa"></div> -->
+	</div>
+
+	<script src="jquery-3.3.1.js"></script>
+	<script src="sliderShow-max.js"></script>
+	<script src="tab.js"></script>
+	<script src="input.js"></script>	
+	<script src="DouBan.js"></script>
+
+</body>
+
+</html>
